@@ -1,0 +1,20 @@
+星星你个星星代码
+
+>> 我们的代码包含Solution1和Solution2两个方案，
+   其中Solution1使用8个模型训练预测，Solution2
+   训练测试2个模型，最终共计10个模型进行集成得到
+   最终预测结果。
+   './Solution1/our_result/'下包含了我们测试的10
+   个模型的预测概率，最终的预测提交由10个模型的预
+   测进行平均得到(运行'./Solution1/submit.py'即可)
+   
+>> 具体执行步骤参见Solution1和Solution2下的README文件
+   
+>> 对于原始数据的处理，我们先将原始csv数据转换成npy
+   格式，data_pre_process.py是将最终测试集数据转换为
+   npy数据的脚本（训练集类似）；
+   
+>> requirements.txt是本方案的运行环境
+   (主要依赖Pytorch1.2.0)
+
+
