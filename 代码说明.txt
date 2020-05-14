@@ -4,9 +4,7 @@
    其中Solution1使用8个模型训练预测，Solution2
    训练测试2个模型，最终共计10个模型进行集成得到
    最终预测结果。
-   './Solution1/our_result/'下包含了我们测试的10
-   个模型的预测概率，最终的预测提交由10个模型的预
-   测进行平均得到(运行'./Solution1/submit.py'即可)
+   
    
 >> 具体执行步骤参见Solution1和Solution2下的README文件
    
